@@ -1,7 +1,7 @@
 import { propertyAction } from "./property-slice.js";
 import { axiosInstance } from "../../utils/axios.js";
 
-export const getAllproperties = () => async (dispatch, getState) => {
+export const getAllProperties = () => async (dispatch, getState) => {
     try {
         console.log("API call started");
         dispatch(propertyAction.getRequest());

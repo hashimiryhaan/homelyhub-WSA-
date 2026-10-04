@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "../../css/PropertyListing.css";
-import "../../css/PropertyListing.css";
+
 import PropertyImg from "./PropertyImg";
 import PaymentForm from "./PaymentForm";
 import PropertyAmenities from "./PropertyAmenities";
@@ -14,7 +14,7 @@ const PropertyListing = () => {
   const { id } = useParams();
 
  const dispatch =useDispatch();
- const{loading,propertydetails}=useSelector(
+ const{loading,propertyDetails}=useSelector(
   (state)=>state.propertydetails
  )
  
@@ -22,7 +22,7 @@ const PropertyListing = () => {
   useEffect(() => {
     dispatch(getPropertyDetails(id))
   },[dispatch,id]);
-  if (loading || !propertydetails)
+  if (loading || !propertyDetails)
     return (
       <div className="row justify-content-around mt-5">
         <LoadingSpinner />
@@ -38,7 +38,7 @@ const PropertyListing = () => {
     maximumGuest,
     price,
     currentBookings,
-  } = propertydetails;
+  } = propertyDetails;
 
   return (
     <div className="property-container">

@@ -4,7 +4,7 @@ import gsap from "gsap";
 import "../../css/Home.css";
 import {useDispatch,useSelector}from "react-redux";
 import { propertyAction } from "../../store/Property/property-slice.js";
-import { getAllproperties } from "../../store/Property/property-action.js";
+import { getAllProperties } from "../../store/Property/property-action.js";
 
 const Card = ({ id, image, name, address, price }) => {
   return (
@@ -44,7 +44,7 @@ const PropertyList = () => {
   useEffect(() => {
   const fetchProperties = async (pageNumber) => {
     dispatch(propertyAction.updateSearchParams(pageNumber));
-    dispatch(getAllproperties());
+    dispatch(getAllProperties());
   };
   fetchProperties(currentPage);
 }, [currentPage, dispatch]);

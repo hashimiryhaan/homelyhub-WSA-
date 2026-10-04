@@ -3,15 +3,23 @@ import { DatePicker, Space } from "antd";
 import "react-datepicker/dist/react-datepicker.css";
 import "../../css/Home.css";
 
+import { useDispatch } from "react-redux";
+import { propertyAction } from "../../store/Property/property-slice";
+import {getAllProperties}  from "../../store/Property/property-action";
+
 const Search = () => {
   const { RangePicker } = DatePicker;
   const [keyword, setKeyword] = useState({});
   const [value, setValue] = useState([]);
 
+  const dispatch = useDispatch();
+
   function searchHandler(e) {
     e.preventDefault();
     // TODO: add your search logic here. `keyword` holds
     // { city, guests, dateIn, dateOut }.
+    dispatch(propertyAction.updateSearchParams(keyword));
+    dispatch(getAllProperties());
     setKeyword({
       city: "",
       guests: "",
@@ -42,12 +50,12 @@ const Search = () => {
           id="search_destination"
           placeholder="Search destinations"
           type="text"
-          value={keyword.city||""}
+          value={keyword.city}
           onChange={(e) => updateKeyword("city", e.target.value)}
         />
         <Space direction="vertical" size={12}>
           <RangePicker
-            value={value||""}
+            value={value}
             format="DD-MM-YYYY"
             picker="date"
             className="date_picker"
