@@ -9,20 +9,19 @@
 
 
 <p align="center">
-```
-`<a href="https://homelyhub-wsa.netlify.app">
-`<img src="https://img.shields.io/badge/Live%20Demo-HomelyHub-0F8B57?style=for-the-badge" alt="Live Demo">
-`</a>
-`<a href="https://github.com/hashimiryhaan/homelyhub-WSA-">
-`<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
-`</a>`
-`<img src="https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
-`<img src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-`<img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-`<img src="https://img.shields.io/badge/AI-Groq-111827?style=for-the-badge" alt="Groq AI">
+
+<a href="https://homelyhub-wsa.netlify.app">
+<img src="https://img.shields.io/badge/Live%20Demo-HomelyHub-0F8B57?style=for-the-badge" alt="Live Demo">
+</a>
+<a href="https://github.com/hashimiryhaan/homelyhub-WSA-">
+<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+</a>
+<img src="https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+<img src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+<img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+<img src="https://img.shields.io/badge/AI-Groq-111827?style=for-the-badge" alt="Groq AI">
 
 </p>
-```
 
 ------------------------------------------------------------------------
 
@@ -259,45 +258,43 @@ that fit the planned budget.
 
 
 <p align="center">
-```
-`<img src="screenshots/landing page.jpeg" alt="HomelyHub Explore Stays" width="900">`{=html}
+<img src="screenshots/landing page.jpeg" alt="HomelyHub Explore Stays" width="900">
 
 </p>
-```
+
 ### 🏡 Property Details & Booking
 
 
 <p align="center">
-```
-`<img src="screenshots/property-details.jpeg" alt="Property Details and Booking" width="900">`{=html}
-```{=html}
+
+<img src="screenshots/property-details.jpeg" alt="Property Details and Booking" width="900">
+
 </p>
-```
+
 ### 📝 List Your Place
 
 
 <p align="center">
-```
-`<img src="screenshots/property-listing.jpeg" alt="List Your Place" width="700">`{=html}
-```{=html}
+
+<img src="screenshots/property-listing.jpeg" alt="List Your Place" width="700">
 </p>
-```
+
 ### 👤 User Profile
 
 
 <p align="center">
 
-<img src="screenshots/profile.jpeg" alt="User Profile" width="900">`{=html}
+<img src="screenshots/profile.jpeg" alt="User Profile" width="900">
 
 </p>
-```
+
 ### ✨ Trip Genie
 
-```{=html}
+
 <p align="center">
 ```
-`<img src="screenshots/trip genie.jpeg" alt="Trip Genie" width="900">`{=html}
-```{=html}
+`<img src="screenshots/trip genie.jpeg" alt="Trip Genie" width="900">
+
 </p>
 ```
 
@@ -342,17 +339,17 @@ HomelyHub/
 
 ### 1. Clone the repository
 
-``` bash
+    bash
 git clone https://github.com/hashimiryhaan/homelyhub-WSA-.git
 cd homelyhub-WSA-
-```
+
 
 ### 2. Set up the backend
 
-``` bash
+    bash
 cd backend
 npm install
-```
+
 
 Create a `.env` file inside `backend/` and add the required environment
 variables.
@@ -374,15 +371,15 @@ npm install
 
 Create the frontend environment file and configure:
 
-``` env
+     env
 VITE_API_BASE_URL=your_backend_api_url
-```
+
 
 Then start the frontend:
 
-``` bash
+     bash
 npm run dev
-```
+
 
 ------------------------------------------------------------------------
 
@@ -398,24 +395,24 @@ VITE_API_BASE_URL=
 
 ``` env
 PORT=
-MONGO_URI=
+MONGO_URI
 
-GROQ_API_KEY=
+GROQ_API_KEY
 
-JWT_SECRET=
-JWT_EXPIRES_IN=
-JWT_COOKIE_EXPIRES_IN=
+JWT_SECRET
+JWT_EXPIRES_IN
+JWT_COOKIE_EXPIRES_IN
 
-ORIGIN_ACCESS_URL=
+ORIGIN_ACCESS_URL
 
-MAILTRAP_SMTP_HOST=
-MAILTRAP_SMTP_PORT=
-MAILTRAP_SMTP_USER=
-MAILTRAP_SMTP_PASS=
+MAILTRAP_SMTP_HOST
+MAILTRAP_SMTP_PORT
+MAILTRAP_SMTP_USER
+MAILTRAP_SMTP_PASS
 
-IMAGEKIT_PUBLIC_KEY=
-IMAGEKIT_PRIVATE_KEY=
-IMAGEKIT_URL_ENDPOINT=
+IMAGEKIT_PUBLIC_KEY
+IMAGEKIT_PRIVATE_KEY
+IMAGEKIT_URL_ENDPOINT
 ```
 
 ### ⚠️ Security
@@ -641,32 +638,20 @@ Through this project, I gained practical experience with:
 
 ## 👤 Author
 
-### Hashimi Ryhaan
+### S Hashimi Ryhaan
 
 Full-Stack Developer \| MERN Stack \| AI Integration
 
-```{=html}
+
 <p>
-```
-`<a href="https://github.com/hashimiryhaan">`{=html}GitHub`</a>`{=html}
+
+<a href="https://github.com/hashimiryhaan">GitHub</a>
 •
-`<a href="https://www.linkedin.com/in/hashimi-ryhaan">`{=html}LinkedIn`</a>`{=html}
-```{=html}
+<a href="https://www.linkedin.com/in/hashimi-ryhaan">LinkedIn</a>
+
 </p>
-```
+
 
 ------------------------------------------------------------------------
 
-## ⭐ Support
 
-If you find **HomelyHub** interesting, consider giving the repository a
-⭐ on GitHub.
-
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}🏠 HomelyHub --- Search. Book. List.
-Plan.`</strong>`{=html}
-```{=html}
-</p>
-```
