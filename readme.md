@@ -388,13 +388,13 @@ npm run dev
 ### Frontend
 
 ``` env
-VITE_API_BASE_URL=
+VITE_API_BASE_URL
 ```
 
 ### Backend
 
 ``` env
-PORT=
+PORT
 MONGO_URI
 
 GROQ_API_KEY
