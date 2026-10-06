@@ -7,20 +7,20 @@
 > booking, secure authentication, and AI-powered travel planning in one
 > application.
 
-```{=html}
+
 <p align="center">
 ```
-`<a href="https://homelyhub-wsa.netlify.app">`{=html}
-`<img src="https://img.shields.io/badge/Live%20Demo-HomelyHub-0F8B57?style=for-the-badge" alt="Live Demo">`{=html}
-`</a>`{=html}
-`<a href="https://github.com/hashimiryhaan/homelyhub-WSA-">`{=html}
-`<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">`{=html}
-`</a>`{=html}
-`<img src="https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">`{=html}
-`<img src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">`{=html}
-`<img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">`{=html}
-`<img src="https://img.shields.io/badge/AI-Groq-111827?style=for-the-badge" alt="Groq AI">`{=html}
-```{=html}
+`<a href="https://homelyhub-wsa.netlify.app">
+`<img src="https://img.shields.io/badge/Live%20Demo-HomelyHub-0F8B57?style=for-the-badge" alt="Live Demo">
+`</a>
+`<a href="https://github.com/hashimiryhaan/homelyhub-WSA-">
+`<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+`</a>`
+`<img src="https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+`<img src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+`<img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+`<img src="https://img.shields.io/badge/AI-Groq-111827?style=for-the-badge" alt="Groq AI">
+
 </p>
 ```
 
@@ -253,43 +253,42 @@ that fit the planned budget.
 
 ## 📸 Application Preview
 
-> Add the screenshots below to a `screenshots/` folder in the repository
-> using the suggested filenames.
+
 
 ### 🏠 Explore Stays
 
-```{=html}
+
 <p align="center">
 ```
-`<img src="screenshots/home.png" alt="HomelyHub Explore Stays" width="900">`{=html}
-```{=html}
+`<img src="screenshots/landing page.jpeg" alt="HomelyHub Explore Stays" width="900">`{=html}
+
 </p>
 ```
 ### 🏡 Property Details & Booking
 
-```{=html}
+
 <p align="center">
 ```
-`<img src="screenshots/property-details.png" alt="Property Details and Booking" width="900">`{=html}
+`<img src="screenshots/property-details.jpeg" alt="Property Details and Booking" width="900">`{=html}
 ```{=html}
 </p>
 ```
 ### 📝 List Your Place
 
-```{=html}
+
 <p align="center">
 ```
-`<img src="screenshots/list-property.png" alt="List Your Place" width="700">`{=html}
+`<img src="screenshots/property-listing.jpeg" alt="List Your Place" width="700">`{=html}
 ```{=html}
 </p>
 ```
 ### 👤 User Profile
 
-```{=html}
+
 <p align="center">
-```
-`<img src="screenshots/profile.png" alt="User Profile" width="900">`{=html}
-```{=html}
+
+<img src="screenshots/profile.jpeg" alt="User Profile" width="900">`{=html}
+
 </p>
 ```
 ### ✨ Trip Genie
@@ -297,7 +296,7 @@ that fit the planned budget.
 ```{=html}
 <p align="center">
 ```
-`<img src="screenshots/trip-genie.png" alt="Trip Genie" width="900">`{=html}
+`<img src="screenshots/trip genie.jpeg" alt="Trip Genie" width="900">`{=html}
 ```{=html}
 </p>
 ```
